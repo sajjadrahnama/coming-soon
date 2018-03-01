@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>CS Topics</title>
+
+<!--CSS-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-light.css">
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<!--/CSS-->
+
+<!--JS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.plugin.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<link rel="shortcut icon" href="images/galaxy 1.png" type="image/png">
+
+<script>
+$(function () {
+	$('#defaultCountdown').countdown({until: new Date(2018, 3, 15)}); 
+	//Replace above date with your own, to find out more visit http://keith-wood.name/countdown.html
+});
+</script>
+<!--/JS-->
+
+</head>
+
+<body>
+
+<!--DARK OVERLAY-->
+<div class="overlay"></div>
+<!--/DARK OVERLAY-->
+
+<!--WRAP-->
+<div id="wrap">
+	<!--CONTAINER-->
+	<div class="container">
+		<img src="images/galaxy.png" alt="Paper Plane" class="image-align" />
+		<h1>
+			<span>Coming Soon</span><br/>
+			Searching in <span class="yellow">Galaxy</span>
+		</h1>
+		<p>We will lunch <strong>CS Tpoics</strong> site mid April 2018.</p>
+		<div id="defaultCountdown"></div>
+		<p class="copyright">designed by <a href="https://ceit.aut.ac.ir/~sajjad" target="_blank">Sajjad</a></p>
+	</div>
+	<!--/CONTAINER-->
+</div>
+<!--/WRAP-->
+
+</body>
+</html>
