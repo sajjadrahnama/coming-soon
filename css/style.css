@@ -16,6 +16,14 @@ body{
 	background:url(../images/bg.jpg) no-repeat #000;
 	background-size: cover;
 }
+.particles-js-canvas-el{
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	position: absolute;
+    width: 100%;
+}
 
 .overlay{
 	background:rgba(0,0,0,.8);
@@ -37,11 +45,12 @@ body{
 }
 
 #wrap{
-	width:100%;
-	height:100%;
+	left: 0;right: 0;bottom: 0;top: 0;
 	display:table;
-	position:relative;
+	position:absolute;
 	z-index:10000;
+	width: 100%;
+	height: 100%;
 }
 
 #defaultCountdown{
